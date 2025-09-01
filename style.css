@@ -86,8 +86,22 @@ body {
 }
 .header-list a:hover,
 .header-list a:hover {
-  color: #55a96d;
+  color: #fdc500;
   text-decoration: underline;
+}
+
+.contact-btn:link,
+.contact-btn:visited {
+  display: inline-block;
+  background-color: #fdc500;
+  padding: 1.6rem 3.2rem;
+  border-radius: 10px;
+  font-size: 1.4rem;
+}
+.contact-btn:hover,
+.contact-btn:active {
+  color: #fdc500;
+  background-color: #006400;
 }
 /************************************/
 /**********HERO SECTION*********/
