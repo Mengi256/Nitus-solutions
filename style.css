@@ -93,7 +93,7 @@ body {
 /**********HERO SECTION*********/
 /************************************/
 .hero-section {
-  padding: 3.2rem 0 12.8rem 0;
+  padding: 0 1.2rem 3.2rem 1.2rem;
   position: relative;
   z-index: 1;
   background: linear-gradient(
@@ -124,16 +124,16 @@ body {
   gap: 1.8rem;
 }
 .hero-heading {
-  font-size: 4.8rem;
+  font-size: 4.4rem;
   letter-spacing: 1px;
-  font-weight: 800;
+  font-weight: 700;
   color: #006400;
   margin-bottom: 2.4rem;
 }
 
 .hero-paragraph {
-  font-size: 2rem;
-  font-weight: 400;
+  font-size: 1.8rem;
+  font-weight: 300;
   line-height: 1.1;
   color: #182f1f;
   margin-bottom: 2.4rem;
@@ -182,38 +182,47 @@ body {
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 3.2rem;
+  gap: 1.6rem;
   padding: 3.2rem;
-  align-items: stretch;
+  align-items: center;
   position: relative;
   margin-top: -14rem;
   /* margin-bottom: -10rem; */
   z-index: 2;
 }
 .card {
+  width: 50%;
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
   box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1);
-  padding: 4.8rem;
+  padding: 2.8rem;
   background-color: #006400;
   border-radius: 10px;
+  transition: all 0.3s;
+}
+/* .card--green {
+  z-index: 1;
+} */
+.card--green:hover,
+.card--green:active {
+  opacity: 80%;
 }
 
 .card-title {
-  font-size: 2.4rem;
+  font-size: 2rem;
   border-bottom: 1px solid #fdc500;
   color: #fff;
   text-align: center;
-  font-weight: 600;
-  margin-bottom: 2.4rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
 }
 .card-info {
   line-height: 1.2;
   font-size: 1.8rem;
   font-weight: 400;
   color: #fff;
-  margin-bottom: 2.4rem;
+  margin-bottom: 2rem;
 }
 .card-btn:link,
 .card-btn:visited {
@@ -229,6 +238,7 @@ body {
   text-transform: uppercase;
 }
 .card--2 {
+  /* z-index: 2; */
   background-color: #e6f0e6;
   transform: scale(1.2);
 }
@@ -248,7 +258,7 @@ body {
 /**********WELCOME SECTION*********/
 /************************************/
 .welcome-section {
-  padding: 6.4rem 0;
+  padding: 6.4rem 4.8rem;
 }
 .welcome {
   max-width: 150rem;
@@ -276,7 +286,7 @@ body {
   gap: 2.4rem;
 }
 .welcome-paragraph {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.2;
   color: #423400;
@@ -307,7 +317,7 @@ body {
   align-items: stretch;
 }
 .service {
-  width: 70%;
+  width: 50%;
   padding: 2.4rem;
   border-radius: 10px;
   background-color: rgb(235, 245, 235);
@@ -339,7 +349,7 @@ body {
   margin-bottom: 1.8rem;
 }
 .ser-list {
-  padding: 0 0 0 2.4rem;
+  padding: 0 0 0 1.6rem;
   font-size: 1.4rem;
   color: #000;
   font-weight: 400;
