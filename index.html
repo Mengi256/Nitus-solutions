@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobile.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <script
@@ -23,7 +24,6 @@
   <body>
     <!-- HEADER SECTION -->
     <header>
-      <!-- DESKTOP HEADER -->
       <div class="header-container">
         <div class="logo-container">
           <img
@@ -35,19 +35,21 @@
         <div>
           <p class="logo-name">NITUS SOLUTIONS(U)LTD</p>
         </div>
-        <div class="menu-hamburger">
-          <ion-icon name="menu-outline"></ion-icon>
+        <div class="nav-container">
+          <div class="menu-hamburger">
+            <ion-icon class="hamburger" name="menu-outline"></ion-icon>
+          </div>
+          <nav class="header-nav">
+            <ul class="header-nav-list">
+              <li class="header-list"><a href="index.html">Home</a></li>
+              <li class="header-list"><a href="#">About</a></li>
+              <li class="header-list"><a href="#">Service</a></li>
+              <li class="header-list">
+                <a href="#" class="contact-btn">Contact</a>
+              </li>
+            </ul>
+          </nav>
         </div>
-        <nav class="header-nav">
-          <ul class="header-nav-list">
-            <li class="header-list"><a href="#">Home</a></li>
-            <li class="header-list"><a href="#">About</a></li>
-            <li class="header-list"><a href="#">Service</a></li>
-            <li class="header-list">
-              <a href="#" class="contact-btn">Contact</a>
-            </li>
-          </ul>
-        </nav>
       </div>
 
       <div
@@ -92,9 +94,6 @@
             <p class="card-info card--2--info">
               We handle the paper work so you can focus on your ideas.
             </p>
-            <a class="card-btn btn card--2--btn" href="#"
-              >Learn More &RightArrow;</a
-            >
           </div>
           <div class="card card--green">
             <h3 class="card-title">Creative Solutions</h3>
@@ -104,7 +103,7 @@
           </div>
         </div>
       </section>
-      <!-- WELCOME SECTION -->
+      <!-- WELCOME SECTION
       <section class="welcome-section">
         <div class="welcome">
           <div class="welcome-img">
@@ -136,9 +135,19 @@
             </p>
           </div>
         </div>
+      </section> -->
+      <section class="linkage">
+        <h3 class="linkage-heading">We Work As a Linkage With</h3>
+        <div class="linkagess">
+          <div class="linkage-container">
+            <img src="images/ura-logo.png" alt="URA logo" />
+            <img src="images/urbs-logo.png" alt="URSB logo" />
+            <img src="images/ppda-logo.jpeg" alt="PPDA logo" />
+          </div>
+        </div>
       </section>
-
       <!-- SERVICE-SECTION -->
+
       <section class="service-section">
         <h3 class="service-heading">Our services</h3>
         <div class="service-container">
