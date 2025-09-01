@@ -503,4 +503,7 @@ footer {
   .quick-links {
     display: none;
   }
+  .copy-right {
+    font-size: 1.6rem;
+  }
 }
