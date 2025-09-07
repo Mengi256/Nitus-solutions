@@ -50,7 +50,7 @@ body {
 .header-container {
   width: 100%;
   display: flex;
-  gap: 2rem;
+  gap: 4rem;
   align-items: center;
   justify-content: space-around;
   padding: 0 2.4rem;
@@ -66,41 +66,38 @@ body {
   font-weight: 600;
   color: #006400;
 }
-.hamburger {
-  font-size: 2.4rem;
-  color: #fdc500;
-}
-.nav-container:hover .header-nav {
-  display: block;
-  background-color: #fdc500;
-  position: absolute;
-  padding: 2.4rem;
-  top: 10rem;
-  right: 0;
-  z-index: 2;
-  cursor: pointer;
-}
-.header-nav {
-  display: none;
-}
-.nav-container {
+ /* .menuHamburger {
   display: flex;
-  gap: 2rem;
+  flex-direction: column;
   align-items: center;
-}
-.header-nav-list {
+} */
+
+.navigation{
   display: flex;
-  gap: 2rem;
-  align-items: center;
+  flex-direction: column;
   list-style: none;
+  gap: 1.2rem;
+  padding: 2rem;
+  position: absolute;
+  top: 8rem;
+  right: 4rem;
+  border-radius: 10px;
+ 
+ 
+
 }
+.navigation li{
+  display: none;
+  
+}
+
 .header-list a:link,
 .header-list a:visited {
   display: inline-block;
   text-decoration: none;
   color: #006400;
   font-weight: 600;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   transition: all 0.3s;
 }
 .header-list a:hover,
@@ -109,7 +106,28 @@ body {
   text-decoration: underline;
 }
 
-.contact-btn:link,
+#menu{
+  display: block;
+  font-weight: 500;
+  font-size: 4.4rem;
+  color:#fdc500;
+  border: none;
+  position: absolute;
+  right: 2rem;
+  background-color: #e6f0e6;
+}
+#menu::before{
+  content: "☰";
+ 
+}
+#menu.show::before{
+  content: "X";
+}
+
+.navigation.show li{
+  display: block;
+}
+/* .contact-btn:link,
 .contact-btn:visited {
   display: inline-block;
   background-color: #fdc500;
@@ -121,7 +139,7 @@ body {
 .contact-btn:active {
   color: #fdc500;
   background-color: #006400;
-}
+} */
 /**********************/
 /***HERO SECTION***/
 /**********************/
@@ -303,12 +321,12 @@ body {
   padding: 0 6.4rem 0 4.8rem;
 }
 .linkage-heading {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 600;
   color: #006400;
   opacity: 50%;
   text-align: center;
-  margin-bottom: 2.4rem;
+  margin-bottom: 2rem;
 }
 .linkage-container {
   width: 100%;
@@ -515,13 +533,13 @@ footer {
  }
  .trust{
   color: yellow;
-  font-size: 1rem;
+  font-size: 1.8rem;
   position: absolute;
   top: 10rem;
   left: 2rem;
   background-color: transparent;
   padding: 3rem;
   border-radius: 10px;
-  box-shadow: 6px 6px 2px 6px rgba(0,0,0,0.1);
+  box-shadow: 6px 6px 10px 10px rgba(0,0,0,0.1);
 
  }
