@@ -50,7 +50,7 @@ body {
 .header-container {
   width: 100%;
   display: flex;
-  gap: 4rem;
+  gap: 2rem;
   align-items: center;
   justify-content: space-around;
   padding: 0 2.4rem;
@@ -79,12 +79,12 @@ body {
   gap: 1.2rem;
   padding: 2rem;
   position: absolute;
-  top: 8rem;
-  right: 4rem;
+  top: 9rem;
+  right: 2rem;
   border-radius: 10px;
- 
- 
-
+}
+.navigation:hover{
+  background-color: #f1e5b9;
 }
 .navigation li{
   display: none;
@@ -113,6 +113,7 @@ body {
   color:#fdc500;
   border: none;
   position: absolute;
+  
   right: 2rem;
   background-color: #e6f0e6;
 }
@@ -127,19 +128,7 @@ body {
 .navigation.show li{
   display: block;
 }
-/* .contact-btn:link,
-.contact-btn:visited {
-  display: inline-block;
-  background-color: #fdc500;
-  padding: 1.6rem 3.2rem;
-  border-radius: 10px;
-  font-size: 1.4rem;
-}
-.contact-btn:hover,
-.contact-btn:active {
-  color: #fdc500;
-  background-color: #006400;
-} */
+
 /**********************/
 /***HERO SECTION***/
 /**********************/
