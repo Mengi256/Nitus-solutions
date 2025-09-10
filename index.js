@@ -1,12 +1,15 @@
 const menu = document.querySelector("#menu");
 const mainNav  = document.querySelector(".navigation");
-
+const logoName = document.querySelector(".logo-name")
+const header = document.querySelector("#header")
+const logo = document.querySelector(".logo")
+const hero = document.querySelector(" .hero")
 menu.addEventListener("click", function(){
   menu.classList.toggle("show")
   mainNav.classList.toggle("show");
-  if (mainNav.classList.contains("show")) {
-    mainNav.style.boxShadow = "4px 4px 4px rgba(0,0,0,0.1)";
-  } else {
-    mainNav.style.boxShadow = "none";
-  }
+  logoName.classList.toggle("show")
+  header.classList.toggle("show")
+  logo.classList.toggle("show")
+  hero.classList.toggle("show")
+
 });
