@@ -32,9 +32,9 @@
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
 */
-html {
-  /* font-size: 62.5%; */
-}
+/* html {
+   font-size: 62.5%; 
+} */
 * {
   margin: 0;
   padding: 0;
@@ -175,7 +175,7 @@ ul li{
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
- padding:2rem;
+ padding:1rem;
 }
 .hero-info{
   display: flex;
@@ -196,7 +196,7 @@ ul li{
 
 .hero-img{
   width: 100%;
-  padding: 1rem;
+
   
 }
 .cta-btns{
