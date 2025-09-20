@@ -19,6 +19,9 @@ padding: 1rem;
     gap: 1rem;
     align-items: center;
     }
+    footer input{
+        padding: 1rem;
+    }
 .news-btn{
 padding:1rem 2rem;
   text-decoration: none;
@@ -28,6 +31,7 @@ padding:1rem 2rem;
   border-radius: 10px;
   border: none;
   color: #002900;
+  background-color: #fff;
   transition: 0.3s;
   cursor: pointer;}
 
@@ -121,11 +125,13 @@ padding:1rem 2rem;
   
 }
 .service-paragraphy{
-  font-size: 1.2rem;
+  font-size: 1rem;
   color:#333;
   font-weight: 300;
   line-height: 1.4;
   padding: 0 1rem;
+  text-align: center;
+  opacity: 70%;
 }
 .service-link:link,
 .service-link:visited{
@@ -175,6 +181,7 @@ padding: 0.6rem;
 .track-img-container p{
     text-align: center;
     opacity: 80%;
+    font-size: 1rem;
 }
 .track-img{
     width: 100%;
@@ -196,6 +203,7 @@ padding: 0.6rem;
 }
 .track-para{
     opacity: 60%;
+    font-size: 0.8rem;
 }
 .green{
     color: #006400;
