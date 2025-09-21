@@ -1,9 +1,11 @@
 const menu = document.querySelector("#menu");
 const mainNav  = document.querySelector(".navigation");
 const logoName = document.querySelector(".logo-name")
-const header = document.querySelector("#header")
+const header = document.querySelector("#header-container")
 const logo = document.querySelector(".logo")
-const hero = document.querySelector(" .hero")
+const hero = document.querySelector(" .home-hero-section")
+const menu_nav = document.querySelector(".menu-nav")
+const body = document.querySelector("body")
 
 const heroSection = document.querySelector('.hero-section')
 menu.addEventListener("click", function(){
@@ -14,6 +16,8 @@ menu.addEventListener("click", function(){
   logo.classList.toggle("show")
   hero.classList.toggle("show")
   heroSection.classList.toggle("show")
+  menu_nav.classList.toggle("show")
+  body.classList.toggle("show")
 
 });
 
