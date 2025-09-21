@@ -1,247 +1,123 @@
-footer{
-    background-color: #006400 ;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+ 
+  font-family: "Rubik", sans-serif;
+  /* background-color: #e6f0e6; */
+  
+  
+}
+.about-header{
+    background-image: linear-gradient(To bottom,rgba(34,34,34,0.6),rgba(247, 206, 43, 0.6)),url(images/img-1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: flex-end;
+   
+}
+.about-header-container{
+padding: 2rem;
+box-shadow: 4px 4px 4px rgba(0,0,0,0.4);
+margin-bottom: 1rem;
+}
+.about-heading{
+    font-weight: 700;
+    color: #006400;
+    font-size: 1.6rem;
+    margin-bottom: 0.4rem;
+}
+.about-navigation{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+   
+}
+.about-header-span{
+    color: #006400;
+    font-size: 0.6rem;
+    font-weight: 700;
+}
+.about-navigation li a:link,
+.about-navigation li a:visited{
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.8rem;
+}
+.about-navigation li a:hover,
+.about-navigation li a:active{
+    color: #006400;
+    text-decoration: underline;
+}
+/**********************/
+/***STORY SECTION***/
+/**********************/
+.about-story{
+    padding: 0 1rem 2rem 1rem;
+}
+.story-heading{
+    text-align: center;
+    font-size:  1rem;
+    margin: 2rem 0 2rem 0;
+    font-weight: 600;
+    color: #006400;
+}
+.about-paragraphy{
+    text-align: center;
+    font-size: 0.8rem;
+    color: #555;
+    line-height: 1.2;
+}
+.our-team-section{
+    padding: 0 0 1rem 0;
+}
+.our-team{
+    background: linear-gradient(to bottom, #fff,#fff, #fdc500);
+    border-radius: 0 0 10px 10px;
+    
+}
+.our-team-span{
+    font-size: 0.8rem;
+    font-weight: 400;
+    background-color: #006400;
+    display: block;
+    padding: 0.4rem;
+    text-align: left;
     color: #fff;
     
 }
-footer label{
-   margin: 0;
-}
-form{
-background-color: #fdd133;
-color: #002900;
-padding:  1rem 4rem;
-}
-.form-heading{
-    text-align: center;
-    margin-bottom: 1rem;
-    font-size: 1.2rem;
-}
-.footer-form{
-  
-    display: grid;
-    grid-template-columns: auto 1fr;
-   column-gap: 0.4rem;
-   row-gap: 0.4rem;
-   align-items: center;
-   margin-bottom: 2rem;
- 
-    }
-footer input{
-        display: inline-block;
-        padding: 0.6rem;
-        
-      
-    }
-.news-btn{
-    display: block;
-  margin: 0 auto;
-  padding:1rem 2rem;
-  text-decoration: none;
-  font-weight: 700;
-  text-align: center;
-  font-size: 1rem;
-  border-radius: 10px;
-  border: none;
-  color: #002900;
-  background-color: #fff;
-  transition: 0.3s;
-  cursor: pointer;}
-
-.news-btn:hover{
-    background-color: #f0d576;
-}
-#username, #useremail{
-    border: none;
-}
-.quick-link-heading,.media-heading,.contact-heading{
-    margin: 1rem 0 1rem 1rem;
-    font-size: 1.2rem;
-}
-.quick-lists{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-.quick-link-list a:link,
-.quick-link-list a:visited{
-    
-    text-decoration: none;
-    color: #fdd133;
-    font-size: 1rem;
-    margin: 1rem 0 1rem 1rem;
-}
-.quick-link-list a:hover,
-.quick-link-list a:active{
-  text-decoration: underline;
-}
-.social-lists{
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-    margin: 1rem 0 1rem 1rem;
-}
-.social-lists a:link,
-.social-lists a:visited{
-    display: inline-block;
-    color: #fdd133;
-}
-.copy-right{
-    text-align: center;
-    padding: 1rem;
-    border-top: 1px solid #fdd133;
-   
-}
-.service-section{
-    padding: 2rem 0;
-}
-.services{
+.our-team-lists{
     display: grid;
     grid-template-columns: 1fr;
-    gap: 2rem;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem;
-
+    gap: 0.4rem;
+    font-size: 0.6rem;
 }
-.service-box{
+.our-team-lists li{
     display: flex;
-    padding: 2rem;
-    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.1);
-    flex-direction: column;
     align-items: center;
-    gap: 1rem;
-    border-radius: 10px;
-    
+    gap: 0.4rem;
+    padding: 0.4rem;
 }
-.service span{
+.our-team-lists span{
     color: #006400;
+    font-size: 0.5rem;
+    font-weight: 900;
+}
+.our-team-members{
+    background-color: #fff;
+}
+.team-members-heading{
+    display: inline-block;
     text-align: center;
-    font-size: 1.2rem;
-    font-family: 700;
-    
-}
-.service-list{
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    color: #987d1f;
-}
-.service-list li{
-    list-style-type: circle;
-}
-
-
-.service-info{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-  
-}
-.service-heading{
- font-size: 1.2rem;
- color: #002900;
-  
-}
-.service-paragraphy{
-  font-size: 1rem;
-  color:#333;
-  font-weight: 300;
-  line-height: 1.4;
-  padding: 0 1rem;
-  text-align: center;
-  opacity: 70%;
-}
-.service-link:link,
-.service-link:visited{
-  display: inline-block;
-  text-decoration: none;
-  position: relative;
-  padding: 2rem 2rem;
-  color: #002900;
-
-}
-.service-link:hover,
-.service-link:active{
-    color: #987d1f;
-  
-}
-.service-link::after{
-  content: "_";
-  font-size: 4.6rem;
-  font-weight: 200;
-  position:absolute;
-  top:0 ;
-  right: 8rem;
-  border-radius: 10px;
-  color: #006400;
-}
-
-.service-icon{
-  color: #002900;
-  font-size: 1.4rem;
-}
-
-.service-container{
-padding: 0.6rem;
-    display: none;
-}
-.track-img-container{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    align-items: center;
-    padding: 1rem;
-}
-.track-img-container h4{
-    font-size: 1.6rem;
-    color: #002900;
-}
-.track-img-container p{
-    text-align: center;
-    opacity: 80%;
-    font-size: 1rem;
-}
-.track-img{
-    width: 100%;
-}
-.track-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    padding: 2rem;
-    margin-bottom: 1rem;
-}
-.track-container span{
-    display: block;
-    text-align: center;
-    margin-bottom: 0.6rem;
-    font-size: 1.8rem;
-    font-weight: 600;
-}
-.track-para{
-    opacity: 60%;
     font-size: 0.8rem;
-}
-.green{
-    color: #006400;
-}
-.yellow{
-    color: #fdc500;
-}
-.icon-contact{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    
-}
-.contact-info{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-     margin: 1rem 0 1rem 1rem;
-}
-.contact-icon{
-    color: #fdd133;
+    margin: 2rem 0 1rem 4rem;
+    padding: 0 2rem 0 2rem;
+    border-bottom: 1px solid #006400;
 }
