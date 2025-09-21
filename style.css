@@ -71,7 +71,7 @@ margin-bottom: 1rem;
 }
 .about-paragraphy{
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: #555;
     line-height: 1.2;
 }
@@ -83,6 +83,7 @@ margin-bottom: 1rem;
     /* border-radius: 0 0 10px 10px; */
     box-shadow: 0 2px 8px rgba(0,0,0,0.15);
     margin-bottom: 1rem;
+    padding:0 1rem 2rem 1rem;
    
     
 }
@@ -91,9 +92,10 @@ margin-bottom: 1rem;
     font-weight: 400;
     background-color: #006400;
     display: block;
-    padding: 0.4rem;
+    padding: 0.2rem 0 0.2rem 1rem;
     text-align: left;
     color: #fff;
+    margin-left: -1.8rem;
     
 }
 .our-team-lists{
