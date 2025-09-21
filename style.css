@@ -76,15 +76,18 @@ margin-bottom: 1rem;
     line-height: 1.2;
 }
 .our-team-section{
-    padding: 0 0 1rem 0;
+    padding:1rem 2rem;
 }
 .our-team{
-    background: linear-gradient(to bottom, #fff,#fff, #fdc500);
-    border-radius: 0 0 10px 10px;
+    /* background: linear-gradient(to bottom, #fff,#fff, #fdc500); */
+    /* border-radius: 0 0 10px 10px; */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    margin-bottom: 1rem;
+   
     
 }
 .our-team-span{
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     font-weight: 400;
     background-color: #006400;
     display: block;
@@ -97,18 +100,20 @@ margin-bottom: 1rem;
     display: grid;
     grid-template-columns: 1fr;
     gap: 0.4rem;
-    font-size: 0.6rem;
+    font-size: 1rem;
 }
 .our-team-lists li{
     display: flex;
     align-items: center;
     gap: 0.4rem;
     padding: 0.4rem;
+    opacity: 40%;
 }
 .our-team-lists span{
     color: #006400;
-    font-size: 0.5rem;
+    font-size: 1rem;
     font-weight: 900;
+    
 }
 .our-team-members{
     background-color: #fff;
@@ -117,7 +122,7 @@ margin-bottom: 1rem;
     display: inline-block;
     text-align: center;
     font-size: 0.8rem;
-    margin: 2rem 0 1rem 4rem;
-    padding: 0 2rem 0 2rem;
-    border-bottom: 1px solid #006400;
+    margin: 2rem 0 1rem 4.4rem;
+    padding: 0 2rem 0.6rem 2rem;
+    border-bottom: 2px solid #006400;
 }
