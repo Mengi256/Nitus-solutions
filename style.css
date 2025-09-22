@@ -59,13 +59,21 @@ margin-bottom: 1rem;
 /**********************/
 /***STORY SECTION***/
 /**********************/
-.about-story{
-    padding: 0 1rem 2rem 1rem;
+.our-story{
+     display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 1rem 2rem 1rem; 
+}
+.our-story-img{
+    width: 100%;
+    border-radius: 32px;
+    
 }
 .story-heading{
     text-align: center;
-    font-size:  1rem;
-    margin: 2rem 0 2rem 0;
+    font-size:  1.4rem;
+    margin: 2rem 0 1rem 0;
     font-weight: 600;
     color: #006400;
 }
@@ -75,51 +83,31 @@ margin-bottom: 1rem;
     color: #555;
     line-height: 1.2;
 }
-.our-team-section{
-    padding:1rem 2rem;
-}
-.our-team{
-    /* background: linear-gradient(to bottom, #fff,#fff, #fdc500); */
-    /* border-radius: 0 0 10px 10px; */
-    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-    margin-bottom: 1rem;
-    padding:0 1rem 2rem 1rem;
-   
-    
-}
-.our-team-span{
-    font-size: 1.2rem;
-    font-weight: 400;
-    background-color: #006400;
-    display: block;
-    padding: 0.2rem 0 0.2rem 1rem;
-    text-align: left;
-    color: #fff;
-    margin-left: -1.8rem;
-    
-}
-.our-team-lists{
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 0.4rem;
-    font-size: 1rem;
-}
-.our-team-lists li{
+/**********************/
+/***VISION AND MISSION SECTION***/
+/**********************/
+.vision-and-mission{
     display: flex;
-    align-items: center;
+    flex-direction: column;
     gap: 0.4rem;
-    padding: 0.4rem;
-    opacity: 40%;
+    padding: 1rem 2rem 1rem 2rem;
 }
-.our-team-lists span{
+.vision-heading,.mission-heading{
     color: #006400;
+    font-size:  1.4rem;
+    margin: 2rem 0 1rem 0;
+    font-weight: 600;
+
+}
+.vision-paragraphy,.mission-paragraphy{
     font-size: 1rem;
-    font-weight: 900;
-    
+    color: #555;
+    line-height: 1.2;
 }
-.our-team-members{
-    background-color: #fff;
+.our-team-section{
+    padding:1rem ;
 }
+
 .team-members-heading{
     display: inline-block;
     text-align: center;
@@ -127,6 +115,23 @@ margin-bottom: 1rem;
     margin: 2rem 0 1rem 4.4rem;
     padding: 0 2rem 0.6rem 2rem;
     border-bottom: 2px solid #006400;
+}
+
+/**********************/
+/***COMMITMENT SECTION***/
+/**********************/
+.our-commitment{
+    padding: 2rem;
+}
+.commitment{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #fdc500;
+    padding: 2rem;
+}
+.commit-heading{
+
 }
 
 /**********************/
@@ -150,7 +155,7 @@ margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    padding: 0 0 2rem 1rem;
+    padding: 0 1rem 2rem 1rem;
 }
 .team-member span{
     display: block;
