@@ -104,18 +104,6 @@ margin-bottom: 1rem;
     color: #555;
     line-height: 1.2;
 }
-.our-team-section{
-    padding:1rem ;
-}
-
-.team-members-heading{
-    display: inline-block;
-    text-align: center;
-    font-size: 0.8rem;
-    margin: 2rem 0 1rem 4.4rem;
-    padding: 0 2rem 0.6rem 2rem;
-    border-bottom: 2px solid #006400;
-}
 
 /**********************/
 /***COMMITMENT SECTION***/
@@ -131,12 +119,35 @@ margin-bottom: 1rem;
     padding: 2rem;
 }
 .commit-heading{
+    color:#002900 ;
+    font-size: 1.2rem;
+    font-weight: 700;
 
+}
+.commitment-paragraphy{
+    font-size: 1rem;
+    padding-left: 1rem;
+    font-style: italic;
+    color: #555;
 }
 
 /**********************/
 /***TEAM MEMBERS SECTION***/
 /**********************/
+
+.our-team-section{
+    padding:1rem ;
+}
+
+.team-members-heading{
+    color: #002900;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0 2rem 0.6rem 2rem;
+    border-bottom: 2px solid #b3edb3;
+}
+
+
 .our-team-members{
     display: grid;
     grid-template-columns: 1fr;
