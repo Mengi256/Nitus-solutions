@@ -11,7 +11,7 @@ body {
   
 }
 .about-header{
-    background-image: linear-gradient(To bottom,rgba(34,34,34,0.6),rgba(247, 206, 43, 0.6)),url(images/img-1.jpg);
+    background-image: linear-gradient(To bottom,rgba(34,34,34,0.6),rgba(222, 239, 177, 0.6)),url(images/nitussss.webp);
     background-position: center;
     background-size: cover;
     height: 50vh;
@@ -67,14 +67,14 @@ margin-bottom: 1rem;
 }
 .our-story-img{
     width: 100%;
-    border-radius: 32px;
+    border-radius: 2px;
     
 }
-.story-heading{
+.story-heading, .values-heading{
     text-align: center;
     font-size:  1.4rem;
     margin: 2rem 0 1rem 0;
-    font-weight: 600;
+    font-weight: 700;
     color: #006400;
 }
 .about-paragraphy{
@@ -95,7 +95,7 @@ margin-bottom: 1rem;
 .vision-heading,.mission-heading{
     color: #006400;
     font-size:  1.4rem;
-    margin: 2rem 0 1rem 0;
+    margin: 0 0 1rem 0;
     font-weight: 600;
 
 }
@@ -103,13 +103,14 @@ margin-bottom: 1rem;
     font-size: 1rem;
     color: #555;
     line-height: 1.2;
+    margin-bottom: 1rem;
 }
 
 /**********************/
 /***COMMITMENT SECTION***/
 /**********************/
 .our-commitment{
-    padding: 2rem;
+    padding: 1rem;
 }
 .commitment{
     display: flex;
@@ -137,6 +138,7 @@ margin-bottom: 1rem;
 
 .our-team-section{
     padding:1rem ;
+    margin-bottom: 1rem;
 }
 
 .team-members-heading{
@@ -186,6 +188,7 @@ margin-bottom: 1rem;
 }
 .about-member{
   color: #555;
+  font-size: 1rem;
 }
 .member-social-links{
     display: flex;
@@ -195,8 +198,43 @@ margin-bottom: 1rem;
 }
 .member-social-links a:link,
 .member-social-links a:active{
+    font-size: 1.2rem;
     display: inline-block;
      color: #fdc500;
-      font-weight: bold;
+      
       text-decoration: none;
+}
+
+
+/**********************/
+/***VALUES SECTION***/
+/**********************/
+
+
+.values-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    margin-bottom: 1rem;
+   
+}
+.value{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+.value-icon{
+    color: #fdc500;
+    font-size: 1.6rem;
+}
+
+.value h4{
+    color: #002900;
+    opacity: 70%;
+}
+.value p{
+    font-size: 1rem;
+    color: #555;
 }
