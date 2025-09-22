@@ -128,3 +128,59 @@ margin-bottom: 1rem;
     padding: 0 2rem 0.6rem 2rem;
     border-bottom: 2px solid #006400;
 }
+
+/**********************/
+/***TEAM MEMBERS SECTION***/
+/**********************/
+.our-team-members{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+.team-member-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+     box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+     border-radius: 10px;
+     overflow: hidden;
+}
+.team-member-info{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0 0 2rem 1rem;
+}
+.team-member span{
+    display: block;
+}
+.team-member-container img{
+    width: 100%;
+
+}
+.member-name{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color:#002900 ;
+}
+.member-title{
+    color: #006400;
+
+}
+.about-member{
+  color: #555;
+}
+.member-social-links{
+    display: flex;
+    gap: 1rem;
+   
+
+}
+.member-social-links a:link,
+.member-social-links a:active{
+    display: inline-block;
+     color: #fdc500;
+      font-weight: bold;
+      text-decoration: none;
+}
